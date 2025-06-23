@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Ayush Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #130422;
+      color: aliceblue;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: #000023;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: rgb(180, 180, 247);
+      font-size: 1.04rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+      color: rgb(149, 71, 221);
+    }
+
+    .project {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      transition: 0.3s;
+    }
+
+    .project:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .project h2 {
+      color: #c4b5fd;
+    }
+
+    .project p {
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+
+    .project a {
+      color: #9f7aea;
+      text-decoration: none;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="left">Ayush Portfolio</div>
+    <div class="right">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>My Projects</h1>
+
+    <div class="project">
+      <h2>1. Personal Portfolio Website</h2>
+      <p>A responsive portfolio website to showcase my bio, skills, and projects using HTML, CSS, and JS.</p>
+      <p><strong>Tech used:</strong> HTML, CSS, JavaScript</p>
+      <p><a href="https://github.com/ayush74-web/portfolio-website" target="_blank">🔗 View on GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <h2>2. Simple Calculator App</h2>
+      <p>A basic calculator web app that performs arithmetic operations using vanilla JavaScript.</p>
+      <p><strong>Tech used:</strong> HTML, CSS, JavaScript</p>
+      <p><a href="https://github.com/ayush74-web/calculator-app" target="_blank">🔗 View on GitHub</a></p>
+    </div>
+  </div>
+</body>
+</html>
